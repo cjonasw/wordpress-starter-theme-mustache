@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="UTF-8">
+  <title>{{wp_title}}</title>
+  <link rel="stylesheet" type="text/css" href="{{stylesheet_url}}" media="screen">
+  {{{wp_head}}}
+  {{#template}}<script>console.log("{{template}}");</script>{{/template}}
+</head>
+<body>
+
+<header>
+  <a href="{{home_url}}">{{blog_title}}</a>
+  {{> nav}}
+</header>

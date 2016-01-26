@@ -1,0 +1,13 @@
+{{> header}}
+
+{{#posts}}
+  <h1><a href="{{permalink}}">{{{title}}}</a></h1>
+  {{{excerpt}}}
+{{/posts}}
+
+<footer class="pagination">
+  {{{previous_posts_link}}}
+  {{{next_posts_link}}}
+</footer>
+
+{{> footer}}

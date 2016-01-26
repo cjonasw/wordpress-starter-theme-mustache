@@ -1,0 +1,25 @@
+/*
+  Theme Name: cjonasw-MustachePHP-Example
+  Theme URI: https://github.com/cjonasw/
+  Description: cjonasw-MustachePHP-Example
+  Version: 1
+  Author: Charlie Walter
+  Author URI: http://www.charliejwalter.net
+*/
+
+body{
+  background: whitesmoke;
+  color: grey;
+}
+
+body:after{
+  content: "{{mustache}}";
+}
+
+a{
+  color: grey;
+}
+
+.pagination{
+  margin-top: 1em;
+}
